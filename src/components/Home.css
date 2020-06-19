@@ -1,0 +1,43 @@
+.home {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    height: 80vh;
+}
+.home h1 {
+    padding: 20px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.product {
+    background-color: #fff;
+    padding: 40px 20px;
+    border: 1px solid #999;
+    border-radius: .2rem;
+    width: 20vw;
+}
+
+.product p {
+    margin: 20px 0;
+} 
+
+button {
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    margin: 0 2px;
+}
+
+button:first-child {
+    margin-right: 5px;
+}
